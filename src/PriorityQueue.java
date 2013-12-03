@@ -82,10 +82,6 @@ public class PriorityQueue<K,V> {
 		return myEntry.getKey();
 	}
 
-	public Iterator<Position<Entry<K,V>>> iterator()
-	{
-		return heap.iterator();
-	}
 	protected void upHeap(Position<Entry<K,V>> v)
 	{
 		Position<Entry<K,V>> u; // starting position
